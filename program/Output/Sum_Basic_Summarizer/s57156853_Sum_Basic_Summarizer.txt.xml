@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><CAS version="2">
+    <uima.cas.Sofa _indexed="0" _id="3" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="No other relevant change.&#13;&#10;"/>
+    <org.apache.ctakes.typesystem.type.structured.DocumentID _indexed="1" _id="1" documentID="s57156853_Sum_Basic_Summarizer.txt"/>
+    <uima.tcas.DocumentAnnotation _indexed="1" _id="10" _ref_sofa="3" begin="0" end="27" language="x-unspecified"/>
+    <org.apache.ctakes.typesystem.type.textspan.Segment _indexed="1" _id="15" _ref_sofa="3" begin="0" end="27" id="SIMPLE_SEGMENT"/>
+    <org.apache.ctakes.typesystem.type.textspan.Sentence _indexed="1" _id="21" _ref_sofa="3" begin="0" end="25" sentenceNumber="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.NewlineToken _indexed="1" _id="27" _ref_sofa="3" begin="25" end="27" tokenNumber="5"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="35" _ref_sofa="3" begin="0" end="2" tokenNumber="0" normalizedForm="NO" partOfSpeech="DT" capitalization="1" numPosition="0" canonicalForm="NO"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="47" _ref_sofa="3" begin="3" end="8" tokenNumber="1" normalizedForm="other" partOfSpeech="JJ" capitalization="0" numPosition="0" canonicalForm="other"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="59" _ref_sofa="3" begin="9" end="17" tokenNumber="2" normalizedForm="relevant" partOfSpeech="JJ" capitalization="0" numPosition="0" canonicalForm="relevant"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="71" _ref_sofa="3" begin="18" end="24" tokenNumber="3" normalizedForm="change" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="change"/>
+    <org.apache.ctakes.typesystem.type.syntax.PunctuationToken _indexed="1" _id="83" _ref_sofa="3" begin="24" end="25" tokenNumber="4" partOfSpeech="."/>
+    <org.apache.ctakes.typesystem.type.syntax.NP _indexed="1" _id="91" _ref_sofa="3" begin="0" end="24" chunkType="NP"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="100" _ref_sofa="3" begin="0" end="25" id="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="114" _ref_sofa="3" begin="0" end="2" id="1" form="No" lemma="no" cpostag="DT" postag="DT" feats="_" _ref_head="156" deprel="det" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="128" _ref_sofa="3" begin="3" end="8" id="2" form="other" lemma="other" cpostag="JJ" postag="JJ" feats="_" _ref_head="156" deprel="amod" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="142" _ref_sofa="3" begin="9" end="17" id="3" form="relevant" lemma="relevant" cpostag="JJ" postag="JJ" feats="_" _ref_head="156" deprel="amod" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="156" _ref_sofa="3" begin="18" end="24" id="4" form="change" lemma="change" cpostag="NN" postag="NN" feats="_" _ref_head="100" deprel="root" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="170" _ref_sofa="3" begin="24" end="25" id="5" form="." lemma="." cpostag="." postag="." feats="_" _ref_head="156" deprel="punct" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="191" _ref_sofa="3" begin="0" end="2" nodeType="DT" nodeValue="No" leaf="true" _ref_parent="274" headIndex="0" index="0" tokenIndex="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="204" _ref_sofa="3" begin="3" end="8" nodeType="JJ" nodeValue="other" leaf="true" _ref_parent="274" headIndex="0" index="1" tokenIndex="1"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="217" _ref_sofa="3" begin="9" end="17" nodeType="JJ" nodeValue="relevant" leaf="true" _ref_parent="274" headIndex="0" index="2" tokenIndex="2"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="230" _ref_sofa="3" begin="18" end="24" nodeType="NN" nodeValue="change" leaf="true" _ref_parent="274" headIndex="0" index="3" tokenIndex="3"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="243" _ref_sofa="3" begin="24" end="25" nodeType="." nodeValue="." leaf="true" _ref_parent="274" headIndex="0" index="4" tokenIndex="4"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="274" _ref_sofa="3" begin="0" end="25" nodeType="NP" leaf="false" _ref_parent="256" _ref_children="287" _ref_nodeTags="285" headIndex="3"/>
+    <org.apache.ctakes.typesystem.type.syntax.TopTreebankNode _indexed="1" _id="256" _ref_sofa="3" begin="0" end="25" nodeType="TOP" leaf="false" _ref_children="271" _ref_nodeTags="269" headIndex="0" treebankParse="(TOP (NP (DT No) (JJ other) (JJ relevant) (NN change)(. .)))" _ref_terminals="184"/>
+    <uima.cas.FSArray _id="184" size="5">
+        <i>191</i>
+        <i>204</i>
+        <i>217</i>
+        <i>230</i>
+        <i>243</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="269" size="0"/>
+    <uima.cas.FSArray _id="271" size="1">
+        <i>274</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="285" size="0"/>
+    <uima.cas.FSArray _id="287" size="5">
+        <i>191</i>
+        <i>204</i>
+        <i>217</i>
+        <i>230</i>
+        <i>243</i>
+    </uima.cas.FSArray>
+</CAS>

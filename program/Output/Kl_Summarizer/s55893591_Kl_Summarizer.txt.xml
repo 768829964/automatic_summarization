@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?><CAS version="2">
+    <uima.cas.Sofa _indexed="0" _id="3" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="Chest:  Frontal and lateral views&#13;&#10;INDICATION:  ___ year old woman with COPD exacerbation, cardiac disease.&#13;&#10;No pleural effusion or pneumothorax is seen.&#13;&#10;The cardiac and mediastinal silhouettes are unremarkable.&#13;&#10;"/>
+    <org.apache.ctakes.typesystem.type.structured.DocumentID _indexed="1" _id="1" documentID="s55893591_Kl_Summarizer.txt"/>
+    <uima.tcas.DocumentAnnotation _indexed="1" _id="10" _ref_sofa="3" begin="0" end="214" language="x-unspecified"/>
+    <org.apache.ctakes.typesystem.type.textspan.Segment _indexed="1" _id="15" _ref_sofa="3" begin="0" end="214" id="SIMPLE_SEGMENT"/>
+    <org.apache.ctakes.typesystem.type.textspan.Sentence _indexed="1" _id="21" _ref_sofa="3" begin="0" end="6" sentenceNumber="0"/>
+    <org.apache.ctakes.typesystem.type.textspan.Sentence _indexed="1" _id="27" _ref_sofa="3" begin="8" end="33" sentenceNumber="1"/>
+    <org.apache.ctakes.typesystem.type.textspan.Sentence _indexed="1" _id="33" _ref_sofa="3" begin="35" end="46" sentenceNumber="2"/>
+    <org.apache.ctakes.typesystem.type.textspan.Sentence _indexed="1" _id="39" _ref_sofa="3" begin="48" end="107" sentenceNumber="3"/>
+    <org.apache.ctakes.typesystem.type.textspan.Sentence _indexed="1" _id="45" _ref_sofa="3" begin="109" end="153" sentenceNumber="4"/>
+    <org.apache.ctakes.typesystem.type.textspan.Sentence _indexed="1" _id="51" _ref_sofa="3" begin="155" end="212" sentenceNumber="5"/>
+    <org.apache.ctakes.typesystem.type.syntax.NewlineToken _indexed="1" _id="57" _ref_sofa="3" begin="33" end="35" tokenNumber="6"/>
+    <org.apache.ctakes.typesystem.type.syntax.NewlineToken _indexed="1" _id="65" _ref_sofa="3" begin="107" end="109" tokenNumber="22"/>
+    <org.apache.ctakes.typesystem.type.syntax.NewlineToken _indexed="1" _id="73" _ref_sofa="3" begin="153" end="155" tokenNumber="31"/>
+    <org.apache.ctakes.typesystem.type.syntax.NewlineToken _indexed="1" _id="81" _ref_sofa="3" begin="212" end="214" tokenNumber="40"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="89" _ref_sofa="3" begin="0" end="5" tokenNumber="0" normalizedForm="chest" partOfSpeech="NN" capitalization="1" numPosition="0" canonicalForm="chest"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="109" _ref_sofa="3" begin="8" end="15" tokenNumber="2" normalizedForm="frontal" partOfSpeech="JJ" capitalization="1" numPosition="0" canonicalForm="frontal"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="121" _ref_sofa="3" begin="16" end="19" tokenNumber="3" normalizedForm="and" partOfSpeech="CC" capitalization="0" numPosition="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="133" _ref_sofa="3" begin="20" end="27" tokenNumber="4" normalizedForm="lateral" partOfSpeech="JJ" capitalization="0" numPosition="0" canonicalForm="lateral"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="145" _ref_sofa="3" begin="28" end="33" tokenNumber="5" normalizedForm="view" partOfSpeech="NNS" capitalization="0" numPosition="0" canonicalForm="view"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="157" _ref_sofa="3" begin="35" end="45" tokenNumber="7" normalizedForm="indication" partOfSpeech="NN" capitalization="3" numPosition="0" canonicalForm="indication"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="201" _ref_sofa="3" begin="52" end="56" tokenNumber="12" normalizedForm="year" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="year"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="213" _ref_sofa="3" begin="57" end="60" tokenNumber="13" normalizedForm="old" partOfSpeech="JJ" capitalization="0" numPosition="0" canonicalForm="old"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="225" _ref_sofa="3" begin="61" end="66" tokenNumber="14" normalizedForm="woman" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="woman"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="237" _ref_sofa="3" begin="67" end="71" tokenNumber="15" normalizedForm="with" partOfSpeech="IN" capitalization="0" numPosition="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="249" _ref_sofa="3" begin="72" end="76" tokenNumber="16" normalizedForm="COPD" partOfSpeech="NN" capitalization="3" numPosition="0" canonicalForm="COPD"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="261" _ref_sofa="3" begin="77" end="89" tokenNumber="17" normalizedForm="exacerbation" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="exacerbation"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="281" _ref_sofa="3" begin="91" end="98" tokenNumber="19" normalizedForm="cardiac" partOfSpeech="JJ" capitalization="0" numPosition="0" canonicalForm="cardiac"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="293" _ref_sofa="3" begin="99" end="106" tokenNumber="20" normalizedForm="disease" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="disease"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="313" _ref_sofa="3" begin="109" end="111" tokenNumber="23" normalizedForm="NO" partOfSpeech="DT" capitalization="1" numPosition="0" canonicalForm="NO"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="325" _ref_sofa="3" begin="112" end="119" tokenNumber="24" normalizedForm="pleural" partOfSpeech="JJ" capitalization="0" numPosition="0" canonicalForm="pleural"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="337" _ref_sofa="3" begin="120" end="128" tokenNumber="25" normalizedForm="effusion" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="effusion"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="349" _ref_sofa="3" begin="129" end="131" tokenNumber="26" normalizedForm="OR" partOfSpeech="CC" capitalization="0" numPosition="0" canonicalForm="OR"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="361" _ref_sofa="3" begin="132" end="144" tokenNumber="27" normalizedForm="pneumothorax" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="pneumothorax"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="373" _ref_sofa="3" begin="145" end="147" tokenNumber="28" normalizedForm="IS" partOfSpeech="VBZ" capitalization="0" numPosition="0" canonicalForm="IS"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="385" _ref_sofa="3" begin="148" end="152" tokenNumber="29" normalizedForm="see" partOfSpeech="VBN" capitalization="0" numPosition="0" canonicalForm="see"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="405" _ref_sofa="3" begin="155" end="158" tokenNumber="32" normalizedForm="The" partOfSpeech="DT" capitalization="1" numPosition="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="417" _ref_sofa="3" begin="159" end="166" tokenNumber="33" normalizedForm="cardiac" partOfSpeech="JJ" capitalization="0" numPosition="0" canonicalForm="cardiac"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="429" _ref_sofa="3" begin="167" end="170" tokenNumber="34" normalizedForm="and" partOfSpeech="CC" capitalization="0" numPosition="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="441" _ref_sofa="3" begin="171" end="182" tokenNumber="35" normalizedForm="mediastinal" partOfSpeech="JJ" capitalization="0" numPosition="0" canonicalForm="mediastinal"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="453" _ref_sofa="3" begin="183" end="194" tokenNumber="36" normalizedForm="silhouette" partOfSpeech="NNS" capitalization="0" numPosition="0" canonicalForm="silhouette"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="465" _ref_sofa="3" begin="195" end="198" tokenNumber="37" normalizedForm="ARE" partOfSpeech="VBP" capitalization="0" numPosition="0" canonicalForm="ARE"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="477" _ref_sofa="3" begin="199" end="211" tokenNumber="38" normalizedForm="unremarkable" partOfSpeech="JJ" capitalization="0" numPosition="0" canonicalForm="unremarkable"/>
+    <org.apache.ctakes.typesystem.type.syntax.PunctuationToken _indexed="1" _id="101" _ref_sofa="3" begin="5" end="6" tokenNumber="1" partOfSpeech=":"/>
+    <org.apache.ctakes.typesystem.type.syntax.PunctuationToken _indexed="1" _id="169" _ref_sofa="3" begin="45" end="46" tokenNumber="8" partOfSpeech=":"/>
+    <org.apache.ctakes.typesystem.type.syntax.PunctuationToken _indexed="1" _id="273" _ref_sofa="3" begin="89" end="90" tokenNumber="18" partOfSpeech=","/>
+    <org.apache.ctakes.typesystem.type.syntax.PunctuationToken _indexed="1" _id="305" _ref_sofa="3" begin="106" end="107" tokenNumber="21" partOfSpeech="."/>
+    <org.apache.ctakes.typesystem.type.syntax.PunctuationToken _indexed="1" _id="397" _ref_sofa="3" begin="152" end="153" tokenNumber="30" partOfSpeech="."/>
+    <org.apache.ctakes.typesystem.type.syntax.PunctuationToken _indexed="1" _id="489" _ref_sofa="3" begin="211" end="212" tokenNumber="39" partOfSpeech="."/>
+    <org.apache.ctakes.typesystem.type.syntax.SymbolToken _indexed="1" _id="177" _ref_sofa="3" begin="48" end="49" tokenNumber="9" partOfSpeech=":"/>
+    <org.apache.ctakes.typesystem.type.syntax.SymbolToken _indexed="1" _id="185" _ref_sofa="3" begin="49" end="50" tokenNumber="10" partOfSpeech=":"/>
+    <org.apache.ctakes.typesystem.type.syntax.SymbolToken _indexed="1" _id="193" _ref_sofa="3" begin="50" end="51" tokenNumber="11" partOfSpeech=":"/>
+    <org.apache.ctakes.typesystem.type.syntax.NP _indexed="1" _id="497" _ref_sofa="3" begin="0" end="5" chunkType="NP"/>
+    <org.apache.ctakes.typesystem.type.syntax.NP _indexed="1" _id="502" _ref_sofa="3" begin="8" end="33" chunkType="NP"/>
+    <org.apache.ctakes.typesystem.type.syntax.NP _indexed="1" _id="507" _ref_sofa="3" begin="35" end="45" chunkType="NP"/>
+    <org.apache.ctakes.typesystem.type.syntax.NP _indexed="1" _id="512" _ref_sofa="3" begin="48" end="89" chunkType="NP"/>
+    <org.apache.ctakes.typesystem.type.syntax.NP _indexed="1" _id="522" _ref_sofa="3" begin="72" end="89" chunkType="NP"/>
+    <org.apache.ctakes.typesystem.type.syntax.NP _indexed="1" _id="532" _ref_sofa="3" begin="91" end="106" chunkType="NP"/>
+    <org.apache.ctakes.typesystem.type.syntax.NP _indexed="1" _id="537" _ref_sofa="3" begin="109" end="128" chunkType="NP"/>
+    <org.apache.ctakes.typesystem.type.syntax.NP _indexed="1" _id="547" _ref_sofa="3" begin="132" end="144" chunkType="NP"/>
+    <org.apache.ctakes.typesystem.type.syntax.NP _indexed="1" _id="557" _ref_sofa="3" begin="155" end="194" chunkType="NP"/>
+    <org.apache.ctakes.typesystem.type.syntax.PP _indexed="1" _id="517" _ref_sofa="3" begin="67" end="71" chunkType="PP"/>
+    <org.apache.ctakes.typesystem.type.syntax.O _indexed="1" _id="527" _ref_sofa="3" begin="89" end="90" chunkType="O"/>
+    <org.apache.ctakes.typesystem.type.syntax.O _indexed="1" _id="542" _ref_sofa="3" begin="129" end="131" chunkType="O"/>
+    <org.apache.ctakes.typesystem.type.syntax.VP _indexed="1" _id="552" _ref_sofa="3" begin="145" end="152" chunkType="VP"/>
+    <org.apache.ctakes.typesystem.type.syntax.VP _indexed="1" _id="562" _ref_sofa="3" begin="195" end="198" chunkType="VP"/>
+    <org.apache.ctakes.typesystem.type.syntax.ADJP _indexed="1" _id="567" _ref_sofa="3" begin="199" end="211" chunkType="ADJP"/>
+    <org.apache.ctakes.typesystem.type.textsem.DiseaseDisorderMention _indexed="1" _id="717" _ref_sofa="3" begin="72" end="76" id="1" _ref_ontologyConceptArr="714" typeID="2" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <org.apache.ctakes.typesystem.type.textsem.DiseaseDisorderMention _indexed="1" _id="805" _ref_sofa="3" begin="91" end="106" id="2" _ref_ontologyConceptArr="802" typeID="2" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <org.apache.ctakes.typesystem.type.textsem.DiseaseDisorderMention _indexed="1" _id="629" _ref_sofa="3" begin="99" end="106" id="4" _ref_ontologyConceptArr="626" typeID="2" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <org.apache.ctakes.typesystem.type.textsem.DiseaseDisorderMention _indexed="1" _id="585" _ref_sofa="3" begin="112" end="128" id="5" _ref_ontologyConceptArr="582" typeID="2" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="-1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <org.apache.ctakes.typesystem.type.textsem.DiseaseDisorderMention _indexed="1" _id="761" _ref_sofa="3" begin="112" end="119" id="6" _ref_ontologyConceptArr="758" typeID="2" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="-1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <org.apache.ctakes.typesystem.type.textsem.DiseaseDisorderMention _indexed="1" _id="673" _ref_sofa="3" begin="132" end="144" id="8" _ref_ontologyConceptArr="670" typeID="2" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="-1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <org.apache.ctakes.typesystem.type.textsem.SignSymptomMention _indexed="1" _id="849" _ref_sofa="3" begin="120" end="128" id="7" _ref_ontologyConceptArr="846" typeID="3" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="-1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <org.apache.ctakes.typesystem.type.textsem.AnatomicalSiteMention _indexed="1" _id="903" _ref_sofa="3" begin="0" end="5" id="0" _ref_ontologyConceptArr="899" typeID="6" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <org.apache.ctakes.typesystem.type.textsem.AnatomicalSiteMention _indexed="1" _id="982" _ref_sofa="3" begin="91" end="98" id="3" _ref_ontologyConceptArr="979" typeID="6" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <org.apache.ctakes.typesystem.type.textsem.AnatomicalSiteMention _indexed="1" _id="1016" _ref_sofa="3" begin="159" end="166" id="9" _ref_ontologyConceptArr="1013" typeID="6" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <org.apache.ctakes.typesystem.type.textsem.AnatomicalSiteMention _indexed="1" _id="948" _ref_sofa="3" begin="171" end="182" id="10" _ref_ontologyConceptArr="944" typeID="6" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1041" _ref_sofa="3" begin="0" end="6" id="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1055" _ref_sofa="3" begin="0" end="5" id="1" form="Chest" lemma="chest" cpostag="NN" postag="NN" feats="_" _ref_head="1041" deprel="root" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1069" _ref_sofa="3" begin="5" end="6" id="2" form=":" lemma=":" cpostag=":" postag=":" feats="_" _ref_head="1055" deprel="punct" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1083" _ref_sofa="3" begin="8" end="33" id="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1097" _ref_sofa="3" begin="8" end="15" id="1" form="Frontal" lemma="frontal" cpostag="JJ" postag="JJ" feats="_" _ref_head="1139" deprel="amod" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1111" _ref_sofa="3" begin="16" end="19" id="2" form="and" lemma="and" cpostag="CC" postag="CC" feats="_" _ref_head="1097" deprel="cc" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1125" _ref_sofa="3" begin="20" end="27" id="3" form="lateral" lemma="lateral" cpostag="JJ" postag="JJ" feats="_" _ref_head="1097" deprel="conj" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1139" _ref_sofa="3" begin="28" end="33" id="4" form="views" lemma="view" cpostag="NNS" postag="NNS" feats="_" _ref_head="1083" deprel="root" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1153" _ref_sofa="3" begin="35" end="46" id="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1167" _ref_sofa="3" begin="35" end="45" id="1" form="INDICATION" lemma="indication" cpostag="NN" postag="NN" feats="_" _ref_head="1153" deprel="root" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1181" _ref_sofa="3" begin="45" end="46" id="2" form=":" lemma=":" cpostag=":" postag=":" feats="_" _ref_head="1167" deprel="punct" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1195" _ref_sofa="3" begin="48" end="107" id="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1209" _ref_sofa="3" begin="48" end="49" id="1" form="_" lemma="_" cpostag=":" postag=":" feats="_" _ref_head="1279" deprel="dep" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1223" _ref_sofa="3" begin="49" end="50" id="2" form="_" lemma="_" cpostag=":" postag=":" feats="_" _ref_head="1209" deprel="punct" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1237" _ref_sofa="3" begin="50" end="51" id="3" form="_" lemma="_" cpostag=":" postag=":" feats="_" _ref_head="1279" deprel="punct" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1251" _ref_sofa="3" begin="52" end="56" id="4" form="year" lemma="year" cpostag="NN" postag="NN" feats="_" _ref_head="1265" deprel="npadvmod" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1265" _ref_sofa="3" begin="57" end="60" id="5" form="old" lemma="old" cpostag="JJ" postag="JJ" feats="_" _ref_head="1279" deprel="amod" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1279" _ref_sofa="3" begin="61" end="66" id="6" form="woman" lemma="woman" cpostag="NN" postag="NN" feats="_" _ref_head="1195" deprel="root" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1293" _ref_sofa="3" begin="67" end="71" id="7" form="with" lemma="with" cpostag="IN" postag="IN" feats="_" _ref_head="1279" deprel="prep" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1307" _ref_sofa="3" begin="72" end="76" id="8" form="COPD" lemma="copd" cpostag="NN" postag="NN" feats="_" _ref_head="1321" deprel="nn" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1321" _ref_sofa="3" begin="77" end="89" id="9" form="exacerbation" lemma="exacerbation" cpostag="NN" postag="NN" feats="_" _ref_head="1293" deprel="pobj" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1335" _ref_sofa="3" begin="89" end="90" id="10" form="," lemma="," cpostag="," postag="," feats="_" _ref_head="1321" deprel="punct" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1349" _ref_sofa="3" begin="91" end="98" id="11" form="cardiac" lemma="cardiac" cpostag="JJ" postag="JJ" feats="_" _ref_head="1363" deprel="amod" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1363" _ref_sofa="3" begin="99" end="106" id="12" form="disease" lemma="disease" cpostag="NN" postag="NN" feats="_" _ref_head="1321" deprel="appos" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1377" _ref_sofa="3" begin="106" end="107" id="13" form="." lemma="." cpostag="." postag="." feats="_" _ref_head="1279" deprel="punct" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1391" _ref_sofa="3" begin="109" end="153" id="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1405" _ref_sofa="3" begin="109" end="111" id="1" form="No" lemma="no" cpostag="DT" postag="DT" feats="_" _ref_head="1433" deprel="det" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1419" _ref_sofa="3" begin="112" end="119" id="2" form="pleural" lemma="pleural" cpostag="JJ" postag="JJ" feats="_" _ref_head="1433" deprel="amod" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1433" _ref_sofa="3" begin="120" end="128" id="3" form="effusion" lemma="effusion" cpostag="NN" postag="NN" feats="_" _ref_head="1489" deprel="nsubjpass" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1447" _ref_sofa="3" begin="129" end="131" id="4" form="or" lemma="or" cpostag="CC" postag="CC" feats="_" _ref_head="1433" deprel="cc" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1461" _ref_sofa="3" begin="132" end="144" id="5" form="pneumothorax" lemma="pneumothorax" cpostag="NN" postag="NN" feats="_" _ref_head="1433" deprel="conj" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1475" _ref_sofa="3" begin="145" end="147" id="6" form="is" lemma="be" cpostag="VBZ" postag="VBZ" feats="_" _ref_head="1489" deprel="auxpass" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1489" _ref_sofa="3" begin="148" end="152" id="7" form="seen" lemma="see" cpostag="VBN" postag="VBN" feats="_" _ref_head="1391" deprel="root" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1503" _ref_sofa="3" begin="152" end="153" id="8" form="." lemma="." cpostag="." postag="." feats="_" _ref_head="1489" deprel="punct" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1517" _ref_sofa="3" begin="155" end="212" id="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1531" _ref_sofa="3" begin="155" end="158" id="1" form="The" lemma="the" cpostag="DT" postag="DT" feats="_" _ref_head="1587" deprel="det" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1545" _ref_sofa="3" begin="159" end="166" id="2" form="cardiac" lemma="cardiac" cpostag="JJ" postag="JJ" feats="_" _ref_head="1587" deprel="amod" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1559" _ref_sofa="3" begin="167" end="170" id="3" form="and" lemma="and" cpostag="CC" postag="CC" feats="_" _ref_head="1545" deprel="cc" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1573" _ref_sofa="3" begin="171" end="182" id="4" form="mediastinal" lemma="mediastinal" cpostag="JJ" postag="JJ" feats="_" _ref_head="1545" deprel="conj" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1587" _ref_sofa="3" begin="183" end="194" id="5" form="silhouettes" lemma="silhouette" cpostag="NNS" postag="NNS" feats="_" _ref_head="1601" deprel="nsubj" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1601" _ref_sofa="3" begin="195" end="198" id="6" form="are" lemma="be" cpostag="VBP" postag="VBP" feats="_" _ref_head="1517" deprel="root" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1615" _ref_sofa="3" begin="199" end="211" id="7" form="unremarkable" lemma="unremarkable" cpostag="JJ" postag="JJ" feats="_" _ref_head="1601" deprel="acomp" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="1629" _ref_sofa="3" begin="211" end="212" id="8" form="." lemma="." cpostag="." postag="." feats="_" _ref_head="1601" deprel="punct" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.textsem.Predicate _indexed="1" _id="1643" _ref_sofa="3" begin="145" end="147" _ref_relations="1649" frameSet="be.03"/>
+    <org.apache.ctakes.typesystem.type.textsem.Predicate _indexed="1" _id="1650" _ref_sofa="3" begin="148" end="152" _ref_relations="1673" frameSet="see.01"/>
+    <org.apache.ctakes.typesystem.type.textsem.Predicate _indexed="1" _id="1677" _ref_sofa="3" begin="195" end="198" _ref_relations="1716" frameSet="be.01"/>
+    <org.apache.ctakes.typesystem.type.textsem.SemanticArgument _indexed="1" _id="1657" _ref_sofa="3" begin="120" end="128" _ref_relation="1663" label="A1"/>
+    <org.apache.ctakes.typesystem.type.textsem.SemanticArgument _indexed="1" _id="1684" _ref_sofa="3" begin="183" end="194" _ref_relation="1696" label="A1"/>
+    <org.apache.ctakes.typesystem.type.textsem.SemanticArgument _indexed="1" _id="1690" _ref_sofa="3" begin="199" end="211" _ref_relation="1706" label="A2"/>
+    <org.apache.ctakes.typesystem.type.textsem.SemanticRoleRelation _indexed="1" _id="1663" id="0" category="A1" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" _ref_predicate="1650" _ref_argument="1657"/>
+    <org.apache.ctakes.typesystem.type.textsem.SemanticRoleRelation _indexed="1" _id="1696" id="0" category="A1" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" _ref_predicate="1677" _ref_argument="1684"/>
+    <org.apache.ctakes.typesystem.type.textsem.SemanticRoleRelation _indexed="1" _id="1706" id="0" category="A2" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" _ref_predicate="1677" _ref_argument="1690"/>
+    <uima.cas.NonEmptyFSList _indexed="1" _id="1673" _ref_head="1663" _ref_tail="1676"/>
+    <uima.cas.NonEmptyFSList _indexed="1" _id="1716" _ref_head="1696" _ref_tail="1719"/>
+    <uima.cas.NonEmptyFSList _indexed="1" _id="1719" _ref_head="1706" _ref_tail="1722"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="1727" _ref_sofa="3" begin="0" end="5" nodeType="NN" nodeValue="Chest" leaf="true" _ref_parent="1771" headIndex="0" index="0" tokenIndex="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="1740" _ref_sofa="3" begin="5" end="6" nodeType=":" nodeValue=":" leaf="true" _ref_parent="1771" headIndex="0" index="1" tokenIndex="1"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="1794" _ref_sofa="3" begin="8" end="15" nodeType="JJ" nodeValue="Frontal" leaf="true" _ref_parent="1881" headIndex="0" index="0" tokenIndex="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="1807" _ref_sofa="3" begin="16" end="19" nodeType="CC" nodeValue="and" leaf="true" _ref_parent="1881" headIndex="0" index="1" tokenIndex="1"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="1820" _ref_sofa="3" begin="20" end="27" nodeType="JJ" nodeValue="lateral" leaf="true" _ref_parent="1881" headIndex="0" index="2" tokenIndex="2"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="1833" _ref_sofa="3" begin="28" end="33" nodeType="NNS" nodeValue="views" leaf="true" _ref_parent="1864" headIndex="0" index="3" tokenIndex="3"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="1903" _ref_sofa="3" begin="35" end="45" nodeType="NN" nodeValue="INDICATION" leaf="true" _ref_parent="1947" headIndex="0" index="0" tokenIndex="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="1916" _ref_sofa="3" begin="45" end="46" nodeType=":" nodeValue=":" leaf="true" _ref_parent="1947" headIndex="0" index="1" tokenIndex="1"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="1979" _ref_sofa="3" begin="48" end="49" nodeType="SYM" nodeValue="_" leaf="true" _ref_parent="2235" headIndex="0" index="0" tokenIndex="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="1992" _ref_sofa="3" begin="49" end="50" nodeType="SYM" nodeValue="_" leaf="true" _ref_parent="2235" headIndex="0" index="1" tokenIndex="1"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2005" _ref_sofa="3" begin="50" end="51" nodeType="SYM" nodeValue="_" leaf="true" _ref_parent="2235" headIndex="0" index="2" tokenIndex="2"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2018" _ref_sofa="3" begin="52" end="56" nodeType="NN" nodeValue="year" leaf="true" _ref_parent="2218" headIndex="0" index="3" tokenIndex="3"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2031" _ref_sofa="3" begin="57" end="60" nodeType="JJ" nodeValue="old" leaf="true" _ref_parent="2201" headIndex="0" index="4" tokenIndex="4"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2044" _ref_sofa="3" begin="61" end="66" nodeType="NN" nodeValue="woman" leaf="true" _ref_parent="2184" headIndex="0" index="5" tokenIndex="5"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2057" _ref_sofa="3" begin="67" end="71" nodeType="IN" nodeValue="with" leaf="true" _ref_parent="2253" headIndex="0" index="6" tokenIndex="6"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2070" _ref_sofa="3" begin="72" end="76" nodeType="NN" nodeValue="COPD" leaf="true" _ref_parent="2288" headIndex="0" index="7" tokenIndex="7"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2083" _ref_sofa="3" begin="77" end="89" nodeType="NN" nodeValue="exacerbation" leaf="true" _ref_parent="2288" headIndex="0" index="8" tokenIndex="8"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2096" _ref_sofa="3" begin="89" end="90" nodeType="," nodeValue="," leaf="true" _ref_parent="2270" headIndex="0" index="9" tokenIndex="9"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2109" _ref_sofa="3" begin="91" end="98" nodeType="JJ" nodeValue="cardiac" leaf="true" _ref_parent="2305" headIndex="0" index="10" tokenIndex="10"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2122" _ref_sofa="3" begin="99" end="106" nodeType="NN" nodeValue="disease" leaf="true" _ref_parent="2305" headIndex="0" index="11" tokenIndex="11"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2135" _ref_sofa="3" begin="106" end="107" nodeType="." nodeValue="." leaf="true" _ref_parent="2166" headIndex="0" index="12" tokenIndex="12"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2332" _ref_sofa="3" begin="109" end="111" nodeType="DT" nodeValue="No" leaf="true" _ref_parent="2491" headIndex="0" index="0" tokenIndex="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2345" _ref_sofa="3" begin="112" end="119" nodeType="JJ" nodeValue="pleural" leaf="true" _ref_parent="2491" headIndex="0" index="1" tokenIndex="1"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2358" _ref_sofa="3" begin="120" end="128" nodeType="NN" nodeValue="effusion" leaf="true" _ref_parent="2491" headIndex="0" index="2" tokenIndex="2"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2371" _ref_sofa="3" begin="129" end="131" nodeType="CC" nodeValue="or" leaf="true" _ref_parent="2472" headIndex="0" index="3" tokenIndex="3"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2384" _ref_sofa="3" begin="132" end="144" nodeType="NN" nodeValue="pneumothorax" leaf="true" _ref_parent="2509" headIndex="0" index="4" tokenIndex="4"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2397" _ref_sofa="3" begin="145" end="147" nodeType="VBZ" nodeValue="is" leaf="true" _ref_parent="2525" headIndex="0" index="5" tokenIndex="5"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2410" _ref_sofa="3" begin="148" end="152" nodeType="VBN" nodeValue="seen" leaf="true" _ref_parent="2542" headIndex="0" index="6" tokenIndex="6"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2423" _ref_sofa="3" begin="152" end="153" nodeType="." nodeValue="." leaf="true" _ref_parent="2454" headIndex="0" index="7" tokenIndex="7"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2568" _ref_sofa="3" begin="155" end="158" nodeType="DT" nodeValue="The" leaf="true" _ref_parent="2708" headIndex="0" index="0" tokenIndex="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2581" _ref_sofa="3" begin="159" end="166" nodeType="JJ" nodeValue="cardiac" leaf="true" _ref_parent="2727" headIndex="0" index="1" tokenIndex="1"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2594" _ref_sofa="3" begin="167" end="170" nodeType="CC" nodeValue="and" leaf="true" _ref_parent="2727" headIndex="0" index="2" tokenIndex="2"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2607" _ref_sofa="3" begin="171" end="182" nodeType="JJ" nodeValue="mediastinal" leaf="true" _ref_parent="2727" headIndex="0" index="3" tokenIndex="3"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2620" _ref_sofa="3" begin="183" end="194" nodeType="NNS" nodeValue="silhouettes" leaf="true" _ref_parent="2708" headIndex="0" index="4" tokenIndex="4"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2633" _ref_sofa="3" begin="195" end="198" nodeType="VBP" nodeValue="are" leaf="true" _ref_parent="2745" headIndex="0" index="5" tokenIndex="5"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2646" _ref_sofa="3" begin="199" end="211" nodeType="JJ" nodeValue="unremarkable" leaf="true" _ref_parent="2762" headIndex="0" index="6" tokenIndex="6"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="2659" _ref_sofa="3" begin="211" end="212" nodeType="." nodeValue="." leaf="true" _ref_parent="2690" headIndex="0" index="7" tokenIndex="7"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="1771" _ref_sofa="3" begin="0" end="6" nodeType="NP" leaf="false" _ref_parent="1753" _ref_children="1784" _ref_nodeTags="1782" headIndex="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="1864" _ref_sofa="3" begin="8" end="33" nodeType="NP" leaf="false" _ref_parent="1846" _ref_children="1877" _ref_nodeTags="1875" headIndex="3"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="1881" _ref_sofa="3" begin="8" end="27" nodeType="ADJP" leaf="false" _ref_parent="1864" _ref_children="1894" _ref_nodeTags="1892" headIndex="2"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="1947" _ref_sofa="3" begin="35" end="46" nodeType="NP" leaf="false" _ref_parent="1929" _ref_children="1960" _ref_nodeTags="1958" headIndex="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="2166" _ref_sofa="3" begin="48" end="107" nodeType="NP" leaf="false" _ref_parent="2148" _ref_children="2179" _ref_nodeTags="2177" headIndex="5"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="2184" _ref_sofa="3" begin="48" end="66" nodeType="NP" leaf="false" _ref_parent="2166" _ref_children="2197" _ref_nodeTags="2195" headIndex="5"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="2201" _ref_sofa="3" begin="48" end="60" nodeType="ADJP" leaf="false" _ref_parent="2184" _ref_children="2214" _ref_nodeTags="2212" headIndex="4"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="2218" _ref_sofa="3" begin="48" end="56" nodeType="NP" leaf="false" _ref_parent="2201" _ref_children="2231" _ref_nodeTags="2229" headIndex="3"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="2235" _ref_sofa="3" begin="48" end="51" nodeType="FRAG" leaf="false" _ref_parent="2218" _ref_children="2248" _ref_nodeTags="2246" headIndex="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="2253" _ref_sofa="3" begin="67" end="106" nodeType="PP" leaf="false" _ref_parent="2166" _ref_children="2266" _ref_nodeTags="2264" headIndex="6"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="2270" _ref_sofa="3" begin="72" end="106" nodeType="NP" leaf="false" _ref_parent="2253" _ref_children="2283" _ref_nodeTags="2281" headIndex="8"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="2288" _ref_sofa="3" begin="72" end="89" nodeType="NP" leaf="false" _ref_parent="2270" _ref_children="2301" _ref_nodeTags="2299" headIndex="8"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="2305" _ref_sofa="3" begin="91" end="106" nodeType="NP" leaf="false" _ref_parent="2270" _ref_children="2318" _ref_nodeTags="2316" headIndex="11"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="2454" _ref_sofa="3" begin="109" end="153" nodeType="S" leaf="false" _ref_parent="2436" _ref_children="2467" _ref_nodeTags="2465" headIndex="5"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="2472" _ref_sofa="3" begin="109" end="144" nodeType="NP" leaf="false" _ref_parent="2454" _ref_children="2486" _ref_nodeTags="2483" headIndex="4"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="2491" _ref_sofa="3" begin="109" end="128" nodeType="NP" leaf="false" _ref_parent="2472" _ref_children="2504" _ref_nodeTags="2502" headIndex="2"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="2509" _ref_sofa="3" begin="132" end="144" nodeType="NP" leaf="false" _ref_parent="2472" _ref_children="2522" _ref_nodeTags="2520" headIndex="4"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="2525" _ref_sofa="3" begin="145" end="152" nodeType="VP" leaf="false" _ref_parent="2454" _ref_children="2538" _ref_nodeTags="2536" headIndex="5"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="2542" _ref_sofa="3" begin="148" end="152" nodeType="VP" leaf="false" _ref_parent="2525" _ref_children="2555" _ref_nodeTags="2553" headIndex="6"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="2690" _ref_sofa="3" begin="155" end="212" nodeType="S" leaf="false" _ref_parent="2672" _ref_children="2703" _ref_nodeTags="2701" headIndex="5"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="2708" _ref_sofa="3" begin="155" end="194" nodeType="NP" leaf="false" _ref_parent="2690" _ref_children="2722" _ref_nodeTags="2719" headIndex="4"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="2727" _ref_sofa="3" begin="159" end="182" nodeType="ADJP" leaf="false" _ref_parent="2708" _ref_children="2740" _ref_nodeTags="2738" headIndex="3"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="2745" _ref_sofa="3" begin="195" end="211" nodeType="VP" leaf="false" _ref_parent="2690" _ref_children="2758" _ref_nodeTags="2756" headIndex="5"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="2762" _ref_sofa="3" begin="199" end="211" nodeType="ADJP" leaf="false" _ref_parent="2745" _ref_children="2776" _ref_nodeTags="2773" headIndex="6"/>
+    <org.apache.ctakes.typesystem.type.syntax.TopTreebankNode _indexed="1" _id="1753" _ref_sofa="3" begin="0" end="6" nodeType="TOP" leaf="false" _ref_children="1768" _ref_nodeTags="1766" headIndex="0" treebankParse="(TOP (NP (NN Chest)(: :)))" _ref_terminals="1723"/>
+    <org.apache.ctakes.typesystem.type.syntax.TopTreebankNode _indexed="1" _id="1846" _ref_sofa="3" begin="8" end="33" nodeType="TOP" leaf="false" _ref_children="1861" _ref_nodeTags="1859" headIndex="0" treebankParse="(TOP (NP (ADJP (JJ Frontal) (CC and) (JJ lateral)) (NNS views)))" _ref_terminals="1788"/>
+    <org.apache.ctakes.typesystem.type.syntax.TopTreebankNode _indexed="1" _id="1929" _ref_sofa="3" begin="35" end="46" nodeType="TOP" leaf="false" _ref_children="1944" _ref_nodeTags="1942" headIndex="0" treebankParse="(TOP (NP (NN INDICATION)(: :)))" _ref_terminals="1899"/>
+    <org.apache.ctakes.typesystem.type.syntax.TopTreebankNode _indexed="1" _id="2148" _ref_sofa="3" begin="48" end="107" nodeType="TOP" leaf="false" _ref_children="2163" _ref_nodeTags="2161" headIndex="0" treebankParse="(TOP (NP (NP (ADJP (NP (FRAG (SYM _)(SYM _)(SYM _)) (NN year)) (JJ old)) (NN woman)) (PP (IN with) (NP (NP (NN COPD) (NN exacerbation))(, ,) (NP (JJ cardiac) (NN disease))))(. .)))" _ref_terminals="1964"/>
+    <org.apache.ctakes.typesystem.type.syntax.TopTreebankNode _indexed="1" _id="2436" _ref_sofa="3" begin="109" end="153" nodeType="TOP" leaf="false" _ref_children="2451" _ref_nodeTags="2449" headIndex="0" treebankParse="(TOP (S (NP-SBJ (NP (DT No) (JJ pleural) (NN effusion)) (CC or) (NP (NN pneumothorax))) (VP (VBZ is) (VP (VBN seen)))(. .)))" _ref_terminals="2322"/>
+    <org.apache.ctakes.typesystem.type.syntax.TopTreebankNode _indexed="1" _id="2672" _ref_sofa="3" begin="155" end="212" nodeType="TOP" leaf="false" _ref_children="2687" _ref_nodeTags="2685" headIndex="0" treebankParse="(TOP (S (NP-SBJ (DT The) (ADJP (JJ cardiac) (CC and) (JJ mediastinal)) (NNS silhouettes)) (VP (VBP are) (ADJP-PRD (JJ unremarkable)))(. .)))" _ref_terminals="2558"/>
+    <uima.cas.FSArray _id="2558" size="8">
+        <i>2568</i>
+        <i>2581</i>
+        <i>2594</i>
+        <i>2607</i>
+        <i>2620</i>
+        <i>2633</i>
+        <i>2646</i>
+        <i>2659</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2685" size="0"/>
+    <uima.cas.FSArray _id="2687" size="1">
+        <i>2690</i>
+    </uima.cas.FSArray>
+    <uima.cas.FSArray _id="2322" size="8">
+        <i>2332</i>
+        <i>2345</i>
+        <i>2358</i>
+        <i>2371</i>
+        <i>2384</i>
+        <i>2397</i>
+        <i>2410</i>
+        <i>2423</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2449" size="0"/>
+    <uima.cas.FSArray _id="2451" size="1">
+        <i>2454</i>
+    </uima.cas.FSArray>
+    <uima.cas.FSArray _id="1964" size="13">
+        <i>1979</i>
+        <i>1992</i>
+        <i>2005</i>
+        <i>2018</i>
+        <i>2031</i>
+        <i>2044</i>
+        <i>2057</i>
+        <i>2070</i>
+        <i>2083</i>
+        <i>2096</i>
+        <i>2109</i>
+        <i>2122</i>
+        <i>2135</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2161" size="0"/>
+    <uima.cas.FSArray _id="2163" size="1">
+        <i>2166</i>
+    </uima.cas.FSArray>
+    <uima.cas.FSArray _id="1899" size="2">
+        <i>1903</i>
+        <i>1916</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="1942" size="0"/>
+    <uima.cas.FSArray _id="1944" size="1">
+        <i>1947</i>
+    </uima.cas.FSArray>
+    <uima.cas.FSArray _id="1788" size="4">
+        <i>1794</i>
+        <i>1807</i>
+        <i>1820</i>
+        <i>1833</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="1859" size="0"/>
+    <uima.cas.FSArray _id="1861" size="1">
+        <i>1864</i>
+    </uima.cas.FSArray>
+    <uima.cas.FSArray _id="1723" size="2">
+        <i>1727</i>
+        <i>1740</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="1766" size="0"/>
+    <uima.cas.FSArray _id="1768" size="1">
+        <i>1771</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2773" size="1">
+        <i>PRD</i>
+    </uima.cas.StringArray>
+    <uima.cas.FSArray _id="2776" size="1">
+        <i>2646</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2756" size="0"/>
+    <uima.cas.FSArray _id="2758" size="2">
+        <i>2633</i>
+        <i>2762</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2738" size="0"/>
+    <uima.cas.FSArray _id="2740" size="3">
+        <i>2581</i>
+        <i>2594</i>
+        <i>2607</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2719" size="1">
+        <i>SBJ</i>
+    </uima.cas.StringArray>
+    <uima.cas.FSArray _id="2722" size="3">
+        <i>2568</i>
+        <i>2727</i>
+        <i>2620</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2701" size="0"/>
+    <uima.cas.FSArray _id="2703" size="3">
+        <i>2708</i>
+        <i>2745</i>
+        <i>2659</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2553" size="0"/>
+    <uima.cas.FSArray _id="2555" size="1">
+        <i>2410</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2536" size="0"/>
+    <uima.cas.FSArray _id="2538" size="2">
+        <i>2397</i>
+        <i>2542</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2520" size="0"/>
+    <uima.cas.FSArray _id="2522" size="1">
+        <i>2384</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2502" size="0"/>
+    <uima.cas.FSArray _id="2504" size="3">
+        <i>2332</i>
+        <i>2345</i>
+        <i>2358</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2483" size="1">
+        <i>SBJ</i>
+    </uima.cas.StringArray>
+    <uima.cas.FSArray _id="2486" size="3">
+        <i>2491</i>
+        <i>2371</i>
+        <i>2509</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2465" size="0"/>
+    <uima.cas.FSArray _id="2467" size="3">
+        <i>2472</i>
+        <i>2525</i>
+        <i>2423</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2316" size="0"/>
+    <uima.cas.FSArray _id="2318" size="2">
+        <i>2109</i>
+        <i>2122</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2299" size="0"/>
+    <uima.cas.FSArray _id="2301" size="2">
+        <i>2070</i>
+        <i>2083</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2281" size="0"/>
+    <uima.cas.FSArray _id="2283" size="3">
+        <i>2288</i>
+        <i>2096</i>
+        <i>2305</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2264" size="0"/>
+    <uima.cas.FSArray _id="2266" size="2">
+        <i>2057</i>
+        <i>2270</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2246" size="0"/>
+    <uima.cas.FSArray _id="2248" size="3">
+        <i>1979</i>
+        <i>1992</i>
+        <i>2005</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2229" size="0"/>
+    <uima.cas.FSArray _id="2231" size="2">
+        <i>2235</i>
+        <i>2018</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2212" size="0"/>
+    <uima.cas.FSArray _id="2214" size="2">
+        <i>2218</i>
+        <i>2031</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2195" size="0"/>
+    <uima.cas.FSArray _id="2197" size="2">
+        <i>2201</i>
+        <i>2044</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="2177" size="0"/>
+    <uima.cas.FSArray _id="2179" size="3">
+        <i>2184</i>
+        <i>2253</i>
+        <i>2135</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="1958" size="0"/>
+    <uima.cas.FSArray _id="1960" size="2">
+        <i>1903</i>
+        <i>1916</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="1892" size="0"/>
+    <uima.cas.FSArray _id="1894" size="3">
+        <i>1794</i>
+        <i>1807</i>
+        <i>1820</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="1875" size="0"/>
+    <uima.cas.FSArray _id="1877" size="2">
+        <i>1881</i>
+        <i>1833</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="1782" size="0"/>
+    <uima.cas.FSArray _id="1784" size="2">
+        <i>1727</i>
+        <i>1740</i>
+    </uima.cas.FSArray>
+    <uima.cas.EmptyFSList _id="1722"/>
+    <uima.cas.EmptyFSList _id="1676"/>
+    <uima.cas.EmptyFSList _id="1649"/>
+    <org.apache.ctakes.typesystem.type.refsem.UmlsConcept _id="924" codingScheme="SNOMEDCT_US" code="264099006" oid="264099006#SNOMEDCT_US" score="0.0" disambiguated="false" cui="C0025066" tui="T029" preferredText="Mediastinum"/>
+    <org.apache.ctakes.typesystem.type.refsem.UmlsConcept _id="934" codingScheme="SNOMEDCT_US" code="72410000" oid="72410000#SNOMEDCT_US" score="0.0" disambiguated="false" cui="C0025066" tui="T029" preferredText="Mediastinum"/>
+    <uima.cas.FSArray _id="944" size="2">
+        <i>934</i>
+        <i>924</i>
+    </uima.cas.FSArray>
+    <org.apache.ctakes.typesystem.type.refsem.UmlsConcept _id="1003" codingScheme="SNOMEDCT_US" code="80891009" oid="80891009#SNOMEDCT_US" score="0.0" disambiguated="false" cui="C0018787" tui="T023" preferredText="Heart"/>
+    <uima.cas.FSArray _id="1013" size="1">
+        <i>1003</i>
+    </uima.cas.FSArray>
+    <org.apache.ctakes.typesystem.type.refsem.UmlsConcept _id="969" codingScheme="SNOMEDCT_US" code="80891009" oid="80891009#SNOMEDCT_US" score="0.0" disambiguated="false" cui="C0018787" tui="T023" preferredText="Heart"/>
+    <uima.cas.FSArray _id="979" size="1">
+        <i>969</i>
+    </uima.cas.FSArray>
+    <org.apache.ctakes.typesystem.type.refsem.UmlsConcept _id="879" codingScheme="SNOMEDCT_US" code="261179002" oid="261179002#SNOMEDCT_US" score="0.0" disambiguated="false" cui="C0817096" tui="T029" preferredText="Chest"/>
+    <org.apache.ctakes.typesystem.type.refsem.UmlsConcept _id="889" codingScheme="SNOMEDCT_US" code="51185008" oid="51185008#SNOMEDCT_US" score="0.0" disambiguated="false" cui="C0817096" tui="T029" preferredText="Chest"/>
+    <uima.cas.FSArray _id="899" size="2">
+        <i>889</i>
+        <i>879</i>
+    </uima.cas.FSArray>
+    <org.apache.ctakes.typesystem.type.refsem.UmlsConcept _id="836" codingScheme="SNOMEDCT_US" code="41699000" oid="41699000#SNOMEDCT_US" score="0.0" disambiguated="false" cui="C0013687" tui="T046" preferredText="effusion"/>
+    <uima.cas.FSArray _id="846" size="1">
+        <i>836</i>
+    </uima.cas.FSArray>
+    <org.apache.ctakes.typesystem.type.refsem.UmlsConcept _id="660" codingScheme="SNOMEDCT_US" code="36118008" oid="36118008#SNOMEDCT_US" score="0.0" disambiguated="false" cui="C0032326" tui="T047" preferredText="Pneumothorax"/>
+    <uima.cas.FSArray _id="670" size="1">
+        <i>660</i>
+    </uima.cas.FSArray>
+    <org.apache.ctakes.typesystem.type.refsem.UmlsConcept _id="748" codingScheme="SNOMEDCT_US" code="88075009" oid="88075009#SNOMEDCT_US" score="0.0" disambiguated="false" cui="C0032226" tui="T047" preferredText="Pleural Diseases"/>
+    <uima.cas.FSArray _id="758" size="1">
+        <i>748</i>
+    </uima.cas.FSArray>
+    <org.apache.ctakes.typesystem.type.refsem.UmlsConcept _id="572" codingScheme="SNOMEDCT_US" code="60046008" oid="60046008#SNOMEDCT_US" score="0.0" disambiguated="false" cui="C0032227" tui="T047" preferredText="Pleural effusion disorder"/>
+    <uima.cas.FSArray _id="582" size="1">
+        <i>572</i>
+    </uima.cas.FSArray>
+    <org.apache.ctakes.typesystem.type.refsem.UmlsConcept _id="616" codingScheme="SNOMEDCT_US" code="64572001" oid="64572001#SNOMEDCT_US" score="0.0" disambiguated="false" cui="C0012634" tui="T047" preferredText="Disease"/>
+    <uima.cas.FSArray _id="626" size="1">
+        <i>616</i>
+    </uima.cas.FSArray>
+    <org.apache.ctakes.typesystem.type.refsem.UmlsConcept _id="792" codingScheme="SNOMEDCT_US" code="56265001" oid="56265001#SNOMEDCT_US" score="0.0" disambiguated="false" cui="C0018799" tui="T047" preferredText="Heart Diseases"/>
+    <uima.cas.FSArray _id="802" size="1">
+        <i>792</i>
+    </uima.cas.FSArray>
+    <org.apache.ctakes.typesystem.type.refsem.UmlsConcept _id="704" codingScheme="SNOMEDCT_US" code="13645005" oid="13645005#SNOMEDCT_US" score="0.0" disambiguated="false" cui="C0024117" tui="T047" preferredText="Chronic Obstructive Airway Disease"/>
+    <uima.cas.FSArray _id="714" size="1">
+        <i>704</i>
+    </uima.cas.FSArray>
+</CAS>
